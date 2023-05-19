@@ -108,63 +108,63 @@ int [,] ArrayChenge (int [,] array)
 
 Dictionary<int, int> dict = new Dictionary<int, int>();
 
-// int[,] array = ReadArray();
-// PrintArr(array);
-// Console.WriteLine();
+ int[,] array = ReadArray();
+ PrintArr(array);
+ Console.WriteLine();
 
-// for (int i = 0; i < array.GetLength(0); i++)
-// {
-//     for (int j = 0; j < array.GetLength(1); j++)
-//     {
-//         if (dict.ContainsKey(array[i,j]))
-//         {
-//             dict[array[i,j]]++;
+ for (int i = 0; i < array.GetLength(0); i++)
+ {
+     for (int j = 0; j < array.GetLength(1); j++)
+     {
+         if (dict.ContainsKey(array[i,j]))
+         {
+             dict[array[i,j]]++;
 
-//         }
-//         else
-//         {
-//             dict.Add(array[i,j], 1);
-//         }
-//     }
-// }
+         }
+         else
+         {
+             dict.Add(array[i,j], 1);
+         }
+     }
+ }
 
-// foreach (var item in dict.OrderBy(x => x.Key))
-// {
-//     Console.WriteLine($"{item.Key} --- {item.Value}");
-// }
+ foreach (var item in dict.OrderBy(x => x.Key))
+ {
+     Console.WriteLine($"{item.Key} --- {item.Value}");
+ }
 
 
 
-// int[,] ReadArray()
-// {
-//     Console.WriteLine("Input");
-//     int length = int.Parse(Console.ReadLine());
-//     int length1 = int.Parse(Console.ReadLine());
+ int[,] ReadArray()
+ {
+     Console.WriteLine("Input");
+     int length = int.Parse(Console.ReadLine());
+     int length1 = int.Parse(Console.ReadLine());
 
-//     int[,] array = new int[length, length1];
+     int[,] array = new int[length, length1];
 
-//     for (int i = 0; i < array.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < array.GetLength(1); j++)
-//         {
-//             array[i,j] = new Random().Next(0, 10);
-//         }
-//     }
-//     return array;
-// }
+     for (int i = 0; i < array.GetLength(0); i++)
+     {
+         for (int j = 0; j < array.GetLength(1); j++)
+         {
+             array[i,j] = new Random().Next(0, 10);
+         }
+     }
+     return array;
+ }
 
-// void PrintArr(int [,] array)
-// {
-//     for (int i = 0; i < array.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < array.GetLength(1); j++)
-//         {
-//             Console.Write($"{array[i, j]}  ");
-//         }
-//         Console.WriteLine();
-//     }
+ void PrintArr(int [,] array)
+ {
+     for (int i = 0; i < array.GetLength(0); i++)
+     {
+         for (int j = 0; j < array.GetLength(1); j++)
+         {
+             Console.Write($"{array[i, j]}  ");
+         }
+         Console.WriteLine();
+     }
     
-// }
+ }
 
 
 // Задача 59: Задайтедвумерный массив из целых чисел.
