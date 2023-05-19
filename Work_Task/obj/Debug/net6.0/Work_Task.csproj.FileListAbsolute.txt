@@ -1,0 +1,15 @@
+E:\Seminar7\Work_Task\bin\Debug\net6.0\Work_Task.exe
+E:\Seminar7\Work_Task\bin\Debug\net6.0\Work_Task.deps.json
+E:\Seminar7\Work_Task\bin\Debug\net6.0\Work_Task.runtimeconfig.json
+E:\Seminar7\Work_Task\bin\Debug\net6.0\Work_Task.dll
+E:\Seminar7\Work_Task\bin\Debug\net6.0\Work_Task.pdb
+E:\Seminar7\Work_Task\obj\Debug\net6.0\Work_Task.csproj.AssemblyReference.cache
+E:\Seminar7\Work_Task\obj\Debug\net6.0\Work_Task.GeneratedMSBuildEditorConfig.editorconfig
+E:\Seminar7\Work_Task\obj\Debug\net6.0\Work_Task.AssemblyInfoInputs.cache
+E:\Seminar7\Work_Task\obj\Debug\net6.0\Work_Task.AssemblyInfo.cs
+E:\Seminar7\Work_Task\obj\Debug\net6.0\Work_Task.csproj.CoreCompileInputs.cache
+E:\Seminar7\Work_Task\obj\Debug\net6.0\Work_Task.dll
+E:\Seminar7\Work_Task\obj\Debug\net6.0\refint\Work_Task.dll
+E:\Seminar7\Work_Task\obj\Debug\net6.0\Work_Task.pdb
+E:\Seminar7\Work_Task\obj\Debug\net6.0\Work_Task.genruntimeconfig.cache
+E:\Seminar7\Work_Task\obj\Debug\net6.0\ref\Work_Task.dll
